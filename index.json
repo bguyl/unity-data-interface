@@ -1,0 +1,12 @@
+{
+  "index.html": {
+    "href": "index.html",
+    "title": "Data Interface - Core | DataInterface Core",
+    "keywords": "Data Interface - Core Nice and easy ScriptableObjects interfaces for data"
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Data Interface - Core | DataInterface Core",
+    "keywords": "Data Interface - Core"
+  }
+}
