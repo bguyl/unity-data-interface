@@ -1,0 +1,7 @@
+apiRules:
+    - include:
+        uidRegex: ^DataInterface
+        type: Namespace
+    - exclude:
+        uidRegex: .*
+        type: Namespace

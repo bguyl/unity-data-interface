@@ -1,0 +1,50 @@
+{
+    "metadata": [
+      {
+        "src": [
+          {
+            "src": "../",
+            "files": [
+              "Runtime/**.cs"
+            ]
+          }
+        ],
+        "filter": "filterConfig.yml",
+        "dest": "api"
+      }
+    ],
+    "build": {
+        "globalMetadata": {
+            "_appTitle": "DataInterface Core",
+            "_appFooter": "DataInterface Core",
+            "_enableSearch": true
+        },
+        "content": [
+            {
+                "files": [ "toc.yml", "index.md" ]
+            },
+            {
+                "src": "api",
+                "files": [ "*.yml" ],
+                "dest": "api"
+            },
+            {
+                "src": "manual",
+                "files": [ "toc.yml", "*.md" ],
+                "dest": "manual"
+            }
+        ],
+        "overwrite": [
+            {
+                "src": "..",
+                "files": [ "./**/*.md" ]
+            }
+        ],
+        "resource": [
+            {
+                "files": [ "resources/**/*" ]
+            }
+        ],
+        "dest": "./_site"
+    }
+}
